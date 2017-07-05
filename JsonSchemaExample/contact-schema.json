@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "JSON Schema for contact",
+
+  "type": "object",
+
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "This shows up in tooltips for the 'name' property."
+    },
+    "billing_address": { "$ref": "address-schema.json#" },
+    "shipping_address": { "$ref": "address-schema.json#" }
+  }
+} 

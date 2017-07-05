@@ -1,3 +1,5 @@
 ﻿{
-  "name": "bob"
+  "$schema": "contact-schema.json",
+  "type": "object",
+  "billing_address": {}
 }
